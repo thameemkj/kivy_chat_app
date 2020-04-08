@@ -8,6 +8,9 @@ python_source_code folder.
 Which ever the platform it is, you have to run the server program in a python installed
 system. Then only chat application works well.
 
+Those who are running python program, take main.py.
+--Kivy python package should be properly installed.
+
 How to run the application:
   1. Run the server program in a computer.(Python should be installed)
   2. Run the application.
