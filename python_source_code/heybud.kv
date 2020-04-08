@@ -1,0 +1,23 @@
+#: import H kivy.utils.get_color_from_hex
+
+<LoginButton>:
+	background_color:(1,0,0,0)
+	canvas.before:
+		Color:
+			rgba:H("#527a7a")
+		RoundedRectangle:
+			pos:self.pos
+			size:self.size
+			pos:self.pos
+			radius:[10]
+
+<SignupButton>:
+	background_color:(1,0,0,0)
+	canvas.before:
+		Color:
+			rgba:H("#669999")
+		RoundedRectangle:
+			size:self.size
+			pos:self.pos
+			radius:[10]
+
